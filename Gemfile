@@ -19,6 +19,11 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+# use the dotenv gem for security
+gem 'dotenv-rails', groups: [:development, :test]
+# Cloudinary & Environment
+gem 'cloudinary', '~> 1.16.0'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -28,6 +33,7 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

@@ -21,3 +21,8 @@ ingredients["drinks"].each do |ingredient|
   i = Ingredient.create(name: ingredient["strIngredient1"])
   puts "create #{i.name}"
 end
+
+
+# file = URI.open('https://giantbomb1.cbsistatic.com/uploads/original/9/99864/2419866-nes_console_set.png')
+# cocktail = Cocktail.new(name: 'xxx')
+# cocktail.photo.attach(io: file, filename: 'xxx.png', content_type: 'image/png')
